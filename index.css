@@ -38,7 +38,28 @@ body{
 }
 
 .desc{
-    font-size: 0.8rem;
-    padding:4px;
+    font-size: 0.9rem;
+    padding:2px;
     font-family: 'Open Sans', 'sans-serif';
 }
+
+.panelDemo >p{
+    text-decoration: underline;
+}
+
+
+footer .icons{
+ height:22px !important;
+ width :22px !important;
+}
+code{
+     width: 32px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.footer>div{
+    display: flex;
+    flex-direction: row;
+ }

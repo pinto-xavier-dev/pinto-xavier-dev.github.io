@@ -7,7 +7,7 @@
 }
 
 body {
-  margin: 40px;
+  margin: 10px;
   font-family: 'Open Sans', 'sans-serif';
   background-color: #fff;
   color: #444;
@@ -40,13 +40,19 @@ p {
   grid-auto-rows: minmax(150px, auto);
 }
 
-.panelFrontEnd,.panelBackEnd,.panelDemo {
+.panelFrontEnd,.panelBackEnd {
   /* needed for the flex layout*/
   margin-left: 5px;
   margin-right: 5px;
   display: none;
   flex-direction: row;
  /* flex: 1 1 200px; */
+}
+.panelDemo {
+  margin-left: 5px;
+  margin-right: 5px;
+  display: none;
+  flex-direction: column;
 }
 
 .header,
